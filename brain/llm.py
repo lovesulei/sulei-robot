@@ -20,6 +20,9 @@ class LLM:
                     "content": message,
                 },
             ],
+            options={
+        "temperature": 0.2
+    }
         )
 
         return response["message"]["content"]
