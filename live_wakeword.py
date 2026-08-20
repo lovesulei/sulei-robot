@@ -49,7 +49,7 @@ print("Feature extractor loaded!")
 # Audio settings
 # -----------------------------
 
-DEVICE = 0
+DEVICE = 1
 
 INPUT_RATE = 44100
 TARGET_RATE = 16000
